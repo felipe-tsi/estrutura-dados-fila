@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Get Schwifty';
+  src: url('fonts/get_schwifty__a_rick_and_morty_font_by_jonizaak_dajw4u8.ttf') format('truetype');
+}
+
+body {
+  font-family: sans-serif;
+  color: #FFF765;
+  padding: 30px;
+  background-color: black;
+  text-align: center;
+}
+
+#personagem-atual img,
+#fila img {
+  width: 100px;
+  border-radius: 10px;
+}
+
+#atendimento-atual,
+#sala-de-espera {
+  padding: 10px;
+  background-color: #08BAE3;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #FFF765;
+  border: 2px solid #FFF765;
+  width: 500px; 
+  margin: 20px auto;
+  
+}
+
+#fila {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #08BAE3;
+  color: #FFF765;  
+  border: 2px solid #FFF765 ;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #FFF765;
+  padding: 10px 20px;
+}
+
+button:hover {
+  margin-top: 20px;
+  background-color: black;
+  color: #FAFD7CFF;
+  border: 3px solid #FFF765;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h1 {  
+  text-align: center;
+  font-family: 'Get Schwifty';
+  color: #08BAE3;
+  -webkit-text-stroke: 1px #FFF765;
+}
+
